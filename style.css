@@ -5,41 +5,41 @@
 			 
 			 .container {
     width: 90%;
-    max-width: 1000px;
-
     margin:auto;
-
     background: white;
     border-radius: 20px;
     padding: 20px;
     box-shadow: 0 4px 15px rgba(0,0,0,.15);
 }
-			 
+			 .inline {
+			 display: inline;
+			 justify-content: space-between;
+				 background: white;
+				 color:darkblue;
+			 }
 			 .flex{
 				 display: flex;
 				 background: white;
 				 color:darkblue;
 			 }
 			
-			 h3 {
-				 color: darkred; 
-			 }
+			h1 {
+			color: darkblue;
+			}
 			 h2 {
 				 color:darkblue;
+			 }
+			 h3 {
+				 color: darkred; 
 			 }
 			h4 {
 				color:blue;
 			}
 						 header {
-	background: gray;
 	display: flex;
 	flex-wrap: wrap;
-				color:white;
-				width:95%;
-				max-width:1000px;
-				margin: 20px auto;
-				padding: 15px;
-				border-radius: 10px;
+	 justify-content: space-between;
+				
 }
 			footer {
 			display: flex;
@@ -47,14 +47,13 @@
 				background: gray;
 				color:white;
 				width:95%;
-				max-width:1000px;
-				margin:20px auto;
-				padding:10px;
+				margin:auto;
+				padding:3px;
 				border-radius:10px;
 			}
   .language-box {
    display: flex;
-   justify-content: center;
+   justify-content: flex-end;
    align-items: center;
    gap: 5px;
    width: fit-content;
