@@ -5,11 +5,11 @@
 			 
 			 .container {
     width: 90%;
-    margin:auto;
+    margin: 10px auto;
     background: white;
     border:1px;
     border-radius: 20px;
-    padding: 20px;
+    padding: 40px;
     box-shadow: 0 4px 15px rgba(0,0,0,.15);
 }
 			 .inline {
