@@ -1,7 +1,71 @@
- 
-div {
-display: flex;
+	 body{
+				 font-family: Arial,sans-serif;
+			 }
+			 .flex{
+				 display: flex;
+				 background: white;
+				 color:darkblue;
+			 }
+			 .container {
+				 background: white;
+				  max-width: 100%; 
+				  margin:auto;
+				  border-radius:20px;
+				  padding:20px;
+				  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+			 }
+			 h3 {
+				 color: darkred; 
+			 }
+			 h2 {
+				 color:darkblue;
+			 }
+			h4 {
+				color:blue;
+			}
+						 header {
+	background: gray;
+	display: flex;
+				color:white;
+				width:95%;
+				margin:auto;
+				padding: 10px 20px;
+				border:1px;
+				border-radius: 20px 20px;
 }
-img {
-display: inline;
+			footer {
+				background: gray;
+				color:white;
+				width:100%;
+				padding:20px;
+				border-radius:20px;
+			}
+  .language-box {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 5px;
+   width: fit-content;
+   padding: 5px;
+   border: 2px solid darkblue;
+   border-radius: 10px;
+   background-color: white;
+  }
+  
+ .language-box a {
+  text-decoration: none;
+    color: darkblue;
+    font-weight: bold;
+    padding: 8px 14px;
+    border-radius: 5px;
+    }
+    
+    .language-box a:hover {
+    background-color: darkblue;
+    color: white;
+}
+
+.language-box .active {
+    background-color: darkblue;
+    color: white;
 }
