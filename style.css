@@ -5,11 +5,11 @@
 			 
 			 .container {
     width: 90%;
-    margin: 10px auto;
-    background: white;
+    margin: 20px auto;
+    background-color: white;
     border:1px;
     border-radius: 20px;
-    padding: 40px;
+    padding: 20px;
     box-shadow: 0 4px 15px rgba(0,0,0,.15);
 }
 			 .inline {
@@ -84,3 +84,35 @@
     background-color: darkblue;
     color: white;
 }
+
+ .box { 
+  text-decoration: none;
+    color: blue;
+  font-size:bold;
+    }
+ .box:hover {
+    color: gold;
+}
+
+ .red {
+ color:red;
+ }
+  .p-h {
+  color:darkred;
+  font-size: 2em;
+ 
+ }
+ 
+ .footer2 {
+			display: flex;
+			flex-wrap: wrap;
+				background: gray;
+				color:white;
+				width:95%;
+				height:40px;
+				margin:auto;
+				padding:5px;
+				border-radius:10px;
+				font-size: 12px;
+			}
+ 
