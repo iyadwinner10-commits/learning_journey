@@ -44,6 +44,22 @@ href="ship.jpg">
 	<li><i><b>Active-HIGH</b></i> </li>
 	<li><i><b>Active-LOW</b></i> </li>
 	</ul>
+	
+<pre class="code1">
+	<code>// Blink built-in LED
+
+<p class="red">void setup()</p> { 
+  pinMode(LED_BUILTIN, OUTPUT);   // Configure built-in LED pin as output
+}
+
+<p class="red">void loop()</p> {
+  <p class="d-g">digitalWrite(LED_BUILTIN, HIGH);</p>  // Turn LED on
+  delay(1000);                      // Wait 1 second (1000 ms)
+  digitalWrite(LED_BUILTIN, LOW);   // Turn LED off
+  delay(1000);                      // Wait 1 second
+}
+</code>
+</pre>
 	</body>
 	</div>
 	</html>

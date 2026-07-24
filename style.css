@@ -3,6 +3,13 @@
 				 margin:0;
 			 }
 			 
+			 *{
+			 padding:0;
+			 box-sizing: border-box;
+			 scroll-behavior: smooth;
+			 }
+			 
+			 
 			 .container {
     width: 90%;
     margin: 20px auto;
@@ -73,17 +80,22 @@
     font-weight: bold;
     padding: 8px 14px;
     border-radius: 5px;
+    margin:5px;
     }
     
     .language-box a:hover {
     background-color: darkblue;
     color: white;
+       text-align:center;
+    gap:5px;
+    padding:5px auto;
+
 }
 
 .language-box .active {
     background-color: darkblue;
     color: white;
-}
+ }
 
  .box { 
   text-decoration: none;
@@ -96,6 +108,9 @@
 
  .red {
  color:red;
+ }
+ .d-g {
+	color:darkgreen
  }
   .p-h {
   color:darkred;
@@ -114,4 +129,18 @@
 				border-radius:10px;
 				font-size: 12px;
 			}
- 
+
+
+ .code-box {
+        background: gray;
+    color: #f9fafb;
+    padding: 16px;
+    border-radius: 10px;
+    overflow-x: auto;
+    font-family: Consolas, Monaco, "Courier New", monospace;
+    border: 1px solid #374151;
+  }
+
+  .code-box code {
+    font-family: inherit;
+  }

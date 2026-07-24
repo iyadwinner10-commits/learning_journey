@@ -62,6 +62,23 @@ href="ship.jpg">
 	<li><i><b>Active-LOW</b></i> </li>
 	</ul>
 	
+	<p> Arduino Sketch (a code for programming the Arduino board in C++ language).</p>
+
+
+	<pre class="code-box"><code>
+		<span>// Blink built-in LED</span>
+
+<span>void setup()</span>{
+  pinMode(LED_BUILTIN, OUTPUT);   // Configure built-in LED pin as output
+}
+
+<span>void loop() </span>{
+  digitalWrite(LED_BUILTIN, HIGH);  // Turn LED on
+  delay(1000);                      // Wait 1 second (1000 ms)
+  digitalWrite(LED_BUILTIN, LOW);   // Turn LED off
+  delay(1000);                      // Wait 1 second
+}
+</code></pre>
 	<div class="footer2">
 		<ul>
 	<li>This website is continuously being updated. More Arduino projects, tutorials, and documentation will be added over time. Thank you for visiting!</li>
